@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array_creation</title>
+</head>
+<body>
+    <script>
+        var cosmo=['Tamilselvan','shanmugacollege',8.5,'M',501]//Array declared
+       // alert("ARRAY VALUES:"+cosmo)
+       let beta=new Array()
+       beta.push('chennai')
+       beta.push("Cognizant")
+       beta.push(6.5)
+       beta.push("Tidel Park")
+       //document.writeln("Array Values:"+beta)
+    //    let Display=(temp)=>
+    //    {
+    //     alert(temp)
+    //    }
+    //    beta.map(Display)
+    //    beta.pop()
+    //    document.writeln(beta)
+
+
+       let newvalue=prompt("Tell us position delete")
+       beta=beta.filter((data,pos)=>
+       {
+        return data!==beta[newvalue];//6.5!==beta[1]
+
+
+       })
+       beta.map((data)=>{
+        document.writeln("<b>"+data+"</b>")
+       })
+
+
+    </script>
+    
+</body>
+</html>

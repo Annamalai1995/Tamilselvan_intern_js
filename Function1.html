@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS PROPERTY</title>
+    <script>
+        function result()
+        {
+            var alpha=document.getElementsByTagName('li')[1];
+            alpha.style.color='purple';
+            alpha.style.borderStyle='double';
+
+            let cosmo=document.getElementById('TEMP');
+            cosmo.style.color='pink';
+            cosmo.style.textTransform='uppercase';
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Function Using CSS</h1>
+    <ol onclick="result()">Travel Names
+        <li>kpn</li>
+        <li>srt</li>
+        <li>sat</li>
+        <li id="TEMP">rajesh</li>
+        <li>VRL</li>
+    </ol>
+
+</body>
+</html>
